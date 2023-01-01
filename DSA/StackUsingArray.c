@@ -8,7 +8,7 @@ void push()
 {
     int x;
     if (s.top == 4)
-    printf("Stack is overflow\n");
+    printf("Stack Overflow\n");
     else
     {
     printf("Enter element to push in stack:");
@@ -20,7 +20,7 @@ void push()
 void pop()
 {
     if (s.top == -1)
-    printf("Stack is underflow\n");
+    printf("Stack Underflow\n");
     else
     {
     printf("Element poped in the stack is %d \n",s.a[s.top]);
@@ -31,7 +31,7 @@ void pop()
 void display()
 {
     if (s.top == -1)
-    printf("Stack is underflow\n");
+    printf("Stack Underflow\n");
     else
     {
     printf("Elements of the stack are \n");
@@ -42,7 +42,7 @@ void display()
 void destory()
 {
     s.top = -1;
-    printf("Stack is destory \n");
+    printf("Stack Destroyed Successfully \n");
 }
 void main()
 {
